@@ -32,7 +32,7 @@ try:
     plate_cascade = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
     # check for input video if you need use to ip camera please enable Video Source 1
     #Video Source 1
-    #cap = cv2.VideoCapture("rtsp://admin:Fener1907@192.168.43.108/H264?ch=1&subtype=0")
+    #cap = cv2.VideoCapture("rtsp://admin:password@192.168.43.108/H264?ch=1&subtype=0")
     #Video Source 2
     cap = input("Please Input Your source")
     #initialize input head, with source
